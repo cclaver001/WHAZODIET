@@ -33,15 +33,6 @@ make.table(name=Samples_joined_all.names, group=Samples_joined_all.groups, compr
 
 quit()
 
-#Taxonomic assignment (global)
-globalDBlocation=/share/projects/OCEAN_eDNA/AZORES/GIT
-globalDBprefix=MZGdb_NorthAtlantic_ALL_18S
-#assign their sequences to the taxonomy
-mothur "#classify.seqs(fasta=Samples_joined_all.fasta, template=$globalDBlocation/$globalDBprefix.fasta, taxonomy=$globalDBlocation/$globalDBprefix.tax, name=Samples_joined_all.names, group=Samples_joined_all.groups, method=wang, cutoff=70, processors=12)"
-mothur "#phylotype(taxonomy=Samples_joined_all.$globalDBprefix.wang.taxonomy)"
-mothur "#make.shared(list=Samples_joined_all.$globalDBprefix.wang.tx.list, count=Samples_joined_all.count_table, label=1)"
-mothur "#classify.otu(list=Samples_joined_all.$globalDBprefix.wang.tx.list, count=Samples_joined_all.count_table, taxonomy=Samples_joined_all.$globalDBprefix.wang.taxonomy, label=1)"
-
 #Taxonomic assignment (local DB)
 localDBlocation=/share/projects/OCEAN_eDNA/AZORES/databases
 localDBprefix=MZGdb_Azores_CEPH_18S_V2
