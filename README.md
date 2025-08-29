@@ -1,9 +1,9 @@
 # Whale poo and water eDNA
-This is the repository where the scripts and input files associated to the preprint "Contribution of mesopelagic fish and cephalopods to the diet of rorquals (Balaenoptera spp) and sperm whales (Physeter macrocephalus) beyond their feeding grounds" by Cristina Claver, Leire G. de Amézaga, Iñaki Mendibil, Oriol Canals, Rui Prieto, Irma Cascão, Cláudia Oliveira, Mónica A. Silva, Naiara Rodríguez-Ezpeleta are locaed. 
-*Link to the preprint: to be available soon.*
+This is the repository where the scripts and input files associated to the paper "Mesopelagic fish and cephalopods in the diet of rorquals (Balaenoptera spp) and sperm whales (Physeter macrocephalus) around the Azores using faecal and environmental DNA" by Cristina Claver, Leire G. de Amézaga, Iñaki Mendibil, Oriol Canals, Rui Prieto, Irma Cascão, Cláudia Oliveira, Mónica A. Silva, Naiara Rodríguez-Ezpeleta are locaed. 
+*Link to the preprint:  https://doi.org/10.1101/2025.03.14.643344*
 
 ## Scripts and files
-Scripts used for raw data (available at SRA under Bioproject X [to be available after publication]) preparation and analysis.
+Scripts used for raw data (available at SRA under Bioproject PRJNA1244105) preparation and analysis.
 
 *Demultiplexing step:*
 - 1.script_Demultiplex_run1.sh (for cephalopod data) and  1.script_Demultiplex_run2.sh (for fish data)
